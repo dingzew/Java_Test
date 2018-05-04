@@ -1,8 +1,6 @@
-package edu.cmu.cs.cs214.hw5.framework;
-
 import java.io.File;
 
-public class DeteleFolder {
+public class DeleteFolder {
     public static void main(String[] args) {
         File file =  new File("/Users/dingzew/Documents/testDir");
         System.out.println(deleteDirectory(file));
